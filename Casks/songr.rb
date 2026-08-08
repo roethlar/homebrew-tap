@@ -7,7 +7,7 @@ cask "songr" do
 
   url "https://github.com/roethlar/songr/releases/download/v#{version}/Songr-#{version}#{arch}.dmg"
   name "Songr"
-  desc "Controller for a Roon music library"
+  desc "Multi platform controller for your Roon Core"
   homepage "https://github.com/roethlar/songr"
 
   livecheck do
