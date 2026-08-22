@@ -1,9 +1,9 @@
 cask "songr" do
   arch arm: "-arm64"
 
-  version "1.1.4"
-  sha256 arm:   "beca4f0e6adefa564fa5d9546e04b071d14fcec4d91bc1681c11565eef3f2d65",
-         intel: "381d3290598b92731cb7d08dee51c9e463efca11b123e4632cb5582f7692930c"
+  version "1.1.6"
+  sha256 arm:   "4b72f2fde03bbe42da9e4ad145c4aaa9723be32db3249216a1cf61462967c9ff",
+         intel: "7f5e8e7ac1a38926fbe797d6d38d6c854f45dcf02ef0e74a3c0792d6b1133f87"
 
   url "https://github.com/roethlar/songr/releases/download/v#{version}/Songr-#{version}#{arch}.dmg"
   name "Songr"
