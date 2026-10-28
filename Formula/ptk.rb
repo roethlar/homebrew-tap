@@ -8,19 +8,19 @@ class Ptk < Formula
   on_macos do
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/AlsoBeltrix/PowerShell-Token-Killer/releases/download/v0.3.0-rc.5/ptk-0.3.0-rc.5-osx-arm64.tar.gz"
-      sha256 "3f45c04291bfff7d136b00de375544dcc924d31fc0f3d5bdffc3549ad9a3d882"
+      url "https://github.com/AlsoBeltrix/PowerShell-Token-Killer/releases/download/v0.3.0-rc.6/ptk-0.3.0-rc.6-osx-arm64.tar.gz"
+      sha256 "16b7e57961dbc0bf91c6f44ab7168030a92ca65ef262d25b232abf784f2d3013"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AlsoBeltrix/PowerShell-Token-Killer/releases/download/v0.3.0-rc.5/ptk-0.3.0-rc.5-linux-arm64.tar.gz"
-      sha256 "0788a36cf59345f2491ae014f367dcd07414d1af0a042ac1a573b5b1489b41e2"
+      url "https://github.com/AlsoBeltrix/PowerShell-Token-Killer/releases/download/v0.3.0-rc.6/ptk-0.3.0-rc.6-linux-arm64.tar.gz"
+      sha256 "323acbf528f351e33454f3552582315c5599f046f3f3c8e6edcf5f3669111c4c"
     end
     on_intel do
-      url "https://github.com/AlsoBeltrix/PowerShell-Token-Killer/releases/download/v0.3.0-rc.5/ptk-0.3.0-rc.5-linux-x64.tar.gz"
-      sha256 "58aa1425e6f81e3240508f59f23b68bc5401b404cd30534752ccbc371bde5245"
+      url "https://github.com/AlsoBeltrix/PowerShell-Token-Killer/releases/download/v0.3.0-rc.6/ptk-0.3.0-rc.6-linux-x64.tar.gz"
+      sha256 "1cb4615f1ca45450daa56b1c7ba40a5e9d99e60331f887887368aaa38b750f48"
     end
   end
 
